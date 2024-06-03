@@ -10,7 +10,6 @@ import org.scalameter.withWarmer
 import org.scalameter.Warmer
 
 object Taller4{
-
   def saludo() = "Taller 4"
 
   def main(args: Array[String]): Unit = {
@@ -18,7 +17,8 @@ object Taller4{
     println(
       withWarmer(new Warmer.Default) measure {
         (1 to 100000000).toArray
-      }
-    )
+      })
+    Benchmarking.runBenchmarks()
   }
  }
+
