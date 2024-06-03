@@ -1,3 +1,4 @@
-# Repositorio base
+# TALLER 4
 
-Este repositorio tiene las configuraciones y librerías necesarias para trabajar concurrencia
+Kevin Alexis Lorza - 2266098
+Juan David Perez -2266289
